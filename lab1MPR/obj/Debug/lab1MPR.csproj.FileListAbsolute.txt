@@ -1,0 +1,9 @@
+C:\develop\winforms C#\lab1MPR\lab1MPR\bin\Debug\lab1MPR.exe.config
+C:\develop\winforms C#\lab1MPR\lab1MPR\bin\Debug\lab1MPR.exe
+C:\develop\winforms C#\lab1MPR\lab1MPR\bin\Debug\lab1MPR.pdb
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.csprojResolveAssemblyReference.cache
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.Form1.resources
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.Properties.Resources.resources
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.csproj.GenerateResource.Cache
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.exe
+C:\develop\winforms C#\lab1MPR\lab1MPR\obj\Debug\lab1MPR.pdb

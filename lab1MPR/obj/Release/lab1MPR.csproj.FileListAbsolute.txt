@@ -1,0 +1,1 @@
+C:\develop\winforms C#\lab1MPR\lab1MPR\bin\Release\lab1MPR.exe.config
