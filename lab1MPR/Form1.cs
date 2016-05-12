@@ -27,7 +27,7 @@ namespace lab1MPR
         */
         private void SelectBestAlternative(ServerCard serverCard)
         {
-            
+            this.txtBoxOutPut.Text = "Тут будет решениЕ";
         }
 
         /*
@@ -72,6 +72,11 @@ namespace lab1MPR
                 tableData.Rows.Add(row);
                 tableData.Rows[tableData.Rows.Count-1].HeaderCell.Value = tableData.Rows.Count.ToString();
             }
+        }
+
+        private void SolutionClick(object sender, EventArgs e)
+        {
+            SelectBestAlternative(dataServerCard);
         }
     }
 }
