@@ -21,7 +21,18 @@ namespace lab1MPR
             InitializeComponent();
         }
 
-        //Открыть тектовый файл
+        /*
+        ** Выбор лучшей альтернативы с ипользование аддитивной и мультипликативной свертки
+        ** [in] - объект класса ServerCard, из которого будут получены данные для расчета
+        */
+        private void SelectBestAlternative(ServerCard serverCard)
+        {
+            
+        }
+
+        /*
+        ** Обработка нажатия на ToolStrip, - открыть файл. 
+        */
         private void OpenFile(object sender, EventArgs e)
         {
             /*------------------------------------------ПЕРЕМЕННЫЕ----------------------------------------------- */
@@ -54,15 +65,13 @@ namespace lab1MPR
             tableData.Rows.Clear();
 
             // Получаем данные из базы
-            dataTextFile = dataServerCard.GetListRecords();
+            dataTextFile = dataServerCard.GetStringList();
 
             // Заполняем таблицу данными
             foreach (String[] row in dataTextFile){
                 tableData.Rows.Add(row);
                 tableData.Rows[tableData.Rows.Count-1].HeaderCell.Value = tableData.Rows.Count.ToString();
             }
-
-
         }
     }
 }

@@ -49,10 +49,17 @@ namespace lab1MPR
             listCharacteristic.Add(dataIntCharacteristics);
         }
 
-        public List<String[]> GetListRecords()
+        //Метод возвращет лист с данными о серверной плате
+        public List<String[]> GetStringList()
         {
             return listCard;
-        } 
+        }
+
+        public List<int[]> GetIntList()
+        {
+            return listCharacteristic;
+        }
+
 
 
 
